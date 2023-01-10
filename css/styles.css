@@ -1,12 +1,15 @@
-body {
+body
+{
   background-color: #EAF6F6;
 }
 
-img {
+img
+{
   height: 150px;
 }
 
-hr {
+hr
+{
   border-style: none;
   border-top-style: dotted;
   border-color: gray;
@@ -14,10 +17,40 @@ hr {
   width: 5%;
 }
 
-h1 {
+h1
+{
   color:#66BFBF
 }
 
-h3 {
+h3
+{
   color: #66BFBF
+}
+
+.button
+{
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:8px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+  margin-top: 5px;
+  border: 0;
+
+}
+
+.button:hover 
+{
+	background-color:#408c99;
+}
+
+.button:active 
+{
+	position:relative;
+	top:1px;
 }
